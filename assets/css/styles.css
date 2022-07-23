@@ -1,0 +1,1560 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@900&display=swap');
+main{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    line-height: 2em;
+    color: #868e96;
+}
+.navbar-brand a{
+    font-size: 3em;
+}
+.container a{
+    text-decoration: none;
+}
+
+#ap h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:5em;
+    font-weight: bold;
+    color:#343a40;
+    padding: 10px;
+    margin-top: 20px;
+}
+#ap span{
+    color:  #bd5d38;
+}
+#ap p{
+    width: 100%;
+}
+/* #act h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:5em;
+    font-weight: bold;
+    color:black;
+    padding: 10px;
+    margin-top: 20px;
+
+} */
+.habili h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:3em;
+    font-weight: bold;
+    color:#343a40;
+    padding: 20px;
+    line-height: 1.5em;
+}
+ul{
+    list-style: '✔';
+    list-style-position: inside;
+    columns: 2;
+    padding: 20px;
+}
+abbr{
+    text-decoration: none;
+}
+.tecno h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:3em;
+    font-weight: bold;
+    color:#343a40;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.intere h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:3em;
+    font-weight: bold;
+    color:#343a40;
+    padding: 10px;
+    line-height: 1.5em;
+}
+#liter h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size:3em;
+    font-weight: bold;
+    color:#343a40;
+
+    padding: 10px;
+    line-height: 1.5em;
+}
+#fot{
+    /* font-family: 'Saira Extra Condensed', sans-serif; */
+    font-size:1em;
+    font-weight: normal;
+    color:#868e96;
+    text-align: center;
+    display: block;
+    padding: 10px;
+
+}
+
+@media (max-width:600px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:4em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+     .team-member img{
+        width: 60%;
+        
+    }  
+}
+@media (max-width:700px) {
+
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+}
+
+
+
+@media (max-width:770px) {
+
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+}
+
+@media (max-width:800px) {
+
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+
+@media (max-width:900px) {
+
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 40%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width:950px) {
+
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 2em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 30%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 1199px){
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 20%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 991px){
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 20%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 767px){
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 20%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+}
+@media (max-width:500px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+@media (max-width:520px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+@media (max-width:599px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+@media (max-width: 479px){
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+}
+@media (max-width:360px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:2.5em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: -15px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 2em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:40px;
+        margin-left:-15px;
+    }
+    .intere h1{
+        font-size:2.5em;
+        margin-left:-15px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 50%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+
+@media (max-width:1067px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 30%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+@media (max-width:993px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 30%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    main{
+        width: 100%;
+    }
+
+    ul{
+        list-style:'';
+        list-style-position: inside;
+        width: 100%;
+        columns: 1;
+        padding: 20px;
+    }
+
+    .habili h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size:3em;
+        font-weight: bold;
+        color:#343a40;
+        padding: 3px;
+        line-height: 1em;
+        margin-left: 5px;
+        width: 100%;
+    }
+    .habili ul{
+        font-size: 1em;
+        list-style: '\2714';
+    }
+    #ap h1{
+        font-size: 4em;
+    }
+    .tecno ul{
+        columns: 2;
+        list-style: '\2714'; 
+        margin: auto;  
+        font-size: 1em; 
+    }
+    .tecno span{
+        font-size: 1.2em;
+        
+    }
+    .tecno h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .intere{
+        width: 100%;
+    }
+    #liter{
+        width: 100%;
+    }
+    #liter ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #liter h1{
+        font-size: 2.5em;
+    }
+    #fot{
+        text-align: center;
+        padding: 20px;
+    }
+    .team-member img{
+        width: 30%;
+        display: block;
+        
+    }
+    .act h1{
+        font-size:50px;
+        margin-left:5px;
+    }
+    .act{
+        width: 100%;
+    }
+    #areas{
+        width: 100%;
+    }
+    #areas ul{
+        list-style: '\2714';
+        columns: 1;
+    }
+    #areas h1{
+        font-size: 2.5em;
+    }
+    
+}
